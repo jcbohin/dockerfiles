@@ -1,5 +1,6 @@
 FROM ubuntu:xenial
 
+# Install full latex distribution
 RUN apt -qq update \
  && apt -qq upgrade -y \
  && apt -qq install -y texlive-full \
